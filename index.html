@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divine Mahendi Art | Divya Makwana</title>
+    <meta name="description"
+        content="Best Mahendi Artist in Calgary. Specialist in Bridal Mahendi, Weddings, Baby Showers, and Festivals by Divya Makwana.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Poppins:wght@300;400;500;600&family=Cinzel:wght@600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="bg-pattern"></div>
+
+    <header id="header" class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Divine <span class="highlight">Mehendi</span> Art</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Toggle Navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-image" style="background-image: url('Bridal.png');"></div>
+            <div class="hero-bg-overlay"></div>
+            <div class="container hero-container center-content">
+                <div class="hero-content text-center">
+                    <h1 class="hero-title">Divine Mehendi Art</h1>
+                    <p class="hero-subtitle tagline">Bridal | Arabic | Festival Mehendi Designs</p>
+                    <div class="hero-cta justify-center">
+                        <a href="#book-appointment" class="btn btn-primary">Book Appointment</a>
+                        <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-content">
+                    <h2 class="section-title text-left">The Artist Behind the <span class="highlight">Art</span></h2>
+                    <div class="about-text-part1">
+                        <p class="about-text">Welcome to Divine Mehendi Art! I am Divya Makwana, an experienced and
+                            passionate mehendi artist based in Calgary. With a deep passion for the intricate art of
+                            henna, I strive to bring perfection, creativity, and beauty to your special moments.</p>
+                    </div>
+
+                    <!-- Image will be moved here on mobile via flex order -->
+                    <div class="about-image-mobile-placeholder"></div>
+
+                    <div class="about-text-part2">
+                        <p class="about-text">From classic traditional bridal weaves to modern chic Arabic designs, my
+                            priority is to provide a relaxing, luxurious experience. I use only 100% natural, organic
+                            henna that is safe for your skin and yields the darkest, most beautiful stains.</p>
+                        <a href="https://wa.me/18252883108" target="_blank" class="btn btn-primary mt-4">Let's
+                            Connect</a>
+                    </div>
+                </div>
+                <div class="about-image-wrapper flip-container" onclick="this.classList.toggle('is-flipped')">
+                    <div class="flip-inner">
+                        <div class="flip-front about-image">
+                            <img src="Artist.png" alt="Divya Makwana">
+                        </div>
+                        <div class="flip-back">
+                            <div class="flip-back-content">
+                                <h3>✨ Unleash Your Inner Goddess ✨</h3>
+                                <p>✦ <strong>Divine Artistry:</strong> Traditional Indian mehendi & flawless nail care
+                                    in an exquisite Calgary home studio.</p>
+                                <p>✦ <strong>Special Occasions:</strong> Transforming weddings and parties into
+                                    unforgettable moments.</p>
+                                <p>✦ <strong>Regal Pampering:</strong> Indulge in exceptional nail art, manicures, and
+                                    pedicures.</p>
+                                <p class="highlight-text">🌟 Embrace your regal metamorphosis with Divya Makwana. 🌟</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">My <span class="highlight">Services</span></h2>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-ring"></i></div>
+                        <h3 class="service-title">Bridal Mehendi</h3>
+                        <p class="service-desc">Intricate and culturally rich bridal designs tailored to make your big
+                            day unforgettable.</p>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+                        <h3 class="service-title">Arabic Mehendi</h3>
+                        <p class="service-desc">Elegant, flowing floral motifs and free-flowing trails perfect for a
+                            modern chic look.</p>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-om"></i></div>
+                        <h3 class="service-title">Festival Mehendi</h3>
+                        <p class="service-desc">Custom designs for Karwa Chauth, Eid, Diwali, and other festive
+                            celebrations.</p>
+                    </article>
+
+                    <!-- Service 4 -->
+                    <article class="service-card">
+                        <div class="service-icon"><i class="fa-solid fa-cake-candles"></i></div>
+                        <h3 class="service-title">Party Mehendi</h3>
+                        <p class="service-desc">Beautiful, fast-to-apply designs for birthday parties, sweet sixteens,
+                            and gatherings.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Design <span class="highlight">Gallery</span></h2>
+
+                <div class="gallery-filters text-center">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="bridal">Bridal</button>
+                    <button class="filter-btn" data-filter="arabic">Arabic</button>
+                    <button class="filter-btn" data-filter="festival">Festival</button>
+                    <button class="filter-btn" data-filter="party">Party</button>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="bridal">
+                        <img src="gallery/unnamed.webp" alt="Client Mehndi Design 1">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item" data-category="arabic">
+                        <img src="gallery/unnamed (4).jpg" alt="Client Mehndi Design 2">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item" data-category="festival">
+                        <img src="gallery/unnamed (5).jpg" alt="Client Mehndi Design 3">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item" data-category="party">
+                        <img src="gallery/unnamed (7).jpg" alt="Client Mehndi Design 4">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item" data-category="bridal">
+                        <img src="gallery/unnamed.jpg" alt="Client Mehndi Design 5">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                    <div class="gallery-item" data-category="arabic">
+                        <img src="gallery/unnamed (8).jpg" alt="Client Mehndi Design 6">
+                        <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox-overlay">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-img" id="lightbox-img" alt="Gallery Preview">
+        </div>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-us" class="why-us-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose <span class="highlight">Us</span></h2>
+                <div class="why-us-wrapper">
+                    <div class="why-us-category">
+                        <h3>The Divine Difference</h3>
+                        <div class="why-us-items">
+                            <div class="why-us-item">
+                                <i class="fa-solid fa-leaf"></i>
+                                <span>100% Natural Organic Henna</span>
+                            </div>
+                            <div class="why-us-item">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                <span>Unique & Custom Designs</span>
+                            </div>
+                            <div class="why-us-item">
+                                <i class="fa-solid fa-user-tie"></i>
+                                <span>Experienced Professional Artist</span>
+                            </div>
+                            <div class="why-us-item">
+                                <i class="fa-solid fa-pump-medical"></i>
+                                <span>Strictly Hygienic Application</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="reviews" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Client <span class="highlight">Love</span></h2>
+                <div class="testimonials-grid">
+                    <!-- Review 1 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Divya is incredibly talented! She did my bridal mehandi and it turned
+                            out exactly how I imagined—perfect, intricate, and the stain was so dark. Highly recommend
+                            her for any bride in Calgary!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Priya+Sharma&background=d4af37&color=fff"
+                                    alt="Priya Sharma">
+                            </div>
+                            <div class="client-details">
+                                <h4>Priya Sharma</h4>
+                                <span>Bridal Client</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="testimonial-card">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Booked Divine Mahendi for my baby shower. Divya was so professional,
+                            quick, and her designs were absolutely beautiful. The organic henna smelled amazing and
+                            lasted for weeks."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Neha+Patel&background=d4af37&color=fff"
+                                    alt="Neha Patel">
+                            </div>
+                            <div class="client-details">
+                                <h4>Neha Patel</h4>
+                                <span>Baby Shower</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="testimonial-card hide-on-mobile">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"My bridal mehndi turned out really good! The design was exactly what I
+                            expected and everything went smoothly.experience went really well.she is very nice and
+                            polite. She told me after care for my mehndi which my mehndi comes so good. Loved my bridal
+                            mehndi! Beautiful design and perfect results — just what I wanted. 💕 highly recommend her
+                            to everyone! 💕"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Sandeep+Kahlon&background=d4af37&color=fff"
+                                    alt="Sandeep Kahlon">
+                            </div>
+                            <div class="client-details">
+                                <h4>Sandeep Kahlon</h4>
+                                <span>Bridal Mehndi</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 4 -->
+                    <div class="testimonial-card hide-on-mobile">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Diya was incredible! She did my bridal mehendi for my destination
+                            wedding in Banff. She was quick and efficient and very easy to talk to! She completed both
+                            my hands and feet under 5 hours. My mehendi looked amazing!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Anu+Upadhyay&background=d4af37&color=fff"
+                                    alt="Anu Upadhyay">
+                            </div>
+                            <div class="client-details">
+                                <h4>Anu Upadhyay</h4>
+                                <span>Destination Wedding</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 5 -->
+                    <div class="testimonial-card hide-on-mobile">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Divya is an amazing artist! She did henna for my sister’s wedding and
+                            her work was so detailed and neat. Everyone loved it. Plus, her henna is completely organic
+                            and gave a beautiful dark stain. She was very professional and sweet. Definitely recommend
+                            her!"</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Kiran+K&background=d4af37&color=fff"
+                                    alt="Kiran K">
+                            </div>
+                            <div class="client-details">
+                                <h4>Kiran K</h4>
+                                <span>Bridal Party Mehndi</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 6 -->
+                    <div class="testimonial-card hide-on-mobile">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p class="review-text">"Had an amazing experience getting my mehendi done! The intricate designs
+                            were beautifully executed and the color turned out exactly how I wanted. Divya was
+                            incredibly friendly and professional, making the whole process relaxing."</p>
+                        <div class="client-info">
+                            <div class="client-avatar">
+                                <img src="https://ui-avatars.com/api/?name=Sarah+M&background=d4af37&color=fff"
+                                    alt="Sarah M">
+                            </div>
+                            <div class="client-details">
+                                <h4>Sarah M</h4>
+                                <span>Festival Mehndi</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-header text-center" style="margin-bottom: 50px;">
+                    <h2 class="section-title">Frequently Asked <span class="highlight">Questions</span></h2>
+                    <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">Everything you need to know
+                        about our organic henna process and booking details.</p>
+                </div>
+
+                <div class="faq-accordion">
+                    <!-- FAQ Item 1 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How long does the Mehndi stain last?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>With proper aftercare, a natural henna stain typically lasts 1-2 weeks. The color usually
+                                peaks around 48 hours after application, turning into a rich, dark mahogany, and then
+                                gradually fades as your skin exfoliates.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Is your henna organic and chemical-free?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Absolutely. We mix our own paste using 100% natural, triple-sifted henna powder, organic
+                                essential oils (like eucalyptus or lavender), sugar, and lemon juice. We never use
+                                "black henna" or chemical dyes that can harm the skin.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How far in advance should I book my bridal Mehndi?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>For bridal sessions, we recommend booking at least 3-6 months in advance, especially
+                                during the peak wedding season (May to September). For regular parties or individual
+                                appointments, 2-4 weeks is usually sufficient.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>How should I prepare my skin before the appointment?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Please ensure the area to be hennaed is clean, dry, and free of any lotions or oils. We
+                                recommend gently exfoliating the area the day before to remove dead skin cells, which
+                                helps the stain penetrate deeper.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram Section -->
+        <section id="instagram" class="instagram-section">
+            <div class="container text-center">
+                <h2 class="section-title">Follow Me on <span class="highlight">Instagram</span></h2>
+                <div class="instagram-grid">
+                    <img src="gallery/unnamed.webp" alt="Instagram Post">
+                    <img src="gallery/unnamed (4).jpg" alt="Instagram Post">
+                    <img src="gallery/unnamed (5).jpg" alt="Instagram Post" class="hide-on-mobile">
+                    <img src="gallery/unnamed (7).jpg" alt="Instagram Post" class="hide-on-mobile">
+                </div>
+                <br>
+                <div class="insta-handle-wrapper">
+                    <a href="https://www.instagram.com/divine_mehandi_nails_studio/" target="_blank"
+                        class="insta-handle-badge">
+                        <i class="fa-brands fa-instagram"></i> @DIVINE_MEHANDI_NAILS_STUDIO
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Appointment Section -->
+        <section id="book-appointment" class="booking-section">
+            <div class="container booking-container">
+                <div class="booking-content">
+                    <h2 class="section-title text-left">Book <span class="highlight">Appointment</span></h2>
+                    <p>Lock in your event date with Calgary's finest henna artist. Fill out the form, and I will get
+                        back to you to confirm your booking and details.</p>
+                </div>
+                <div class="booking-form-wrapper">
+                    <form class="booking-form" id="booking-form">
+                        <div class="form-group">
+                            <label for="b-name">Full Name</label>
+                            <input type="text" id="b-name" placeholder="e.g. Priya Sharma" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="b-date">Event Date</label>
+                            <input type="date" id="b-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="b-service">Service Type</label>
+                            <select id="b-service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="bridal">Bridal Mehendi</option>
+                                <option value="arabic">Arabic Mehendi</option>
+                                <option value="festival">Festival Mehendi</option>
+                                <option value="party">Party Mehendi</option>
+                            </select>
+                        </div>
+                        <div class="price-estimate" id="price-estimate" style="display: none;">
+                            <span>Estimated Starting Price:</span>
+                            <h4 id="est-value">$0</h4>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h2>Divine <span class="highlight">Mehendi</span> Art</h2>
+                <p>Best Mehendi Artist by Divya Makwana. Creating timeless henna art in Calgary.</p>
+            </div>
+            <div class="footer-contact highlighted-contact">
+                <h3>Get In Touch</h3>
+                <p><i class="fas fa-phone"></i> +1 825-288-3108</p>
+                <p><i class="fas fa-envelope"></i> divine.shreeji@gmail.com</p>
+                <p><i class="fas fa-location-dot"></i> Calgary, AB</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/divya.makwana.962094/" target="_blank" aria-label="Facebook"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/divine_mehandi_nails_studio/" target="_blank"
+                        aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Divine Mehendi Art. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/18252883108" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Floating Instagram Button -->
+    <a href="https://www.instagram.com/divine_mehandi_nails_studio/" class="instagram-float" target="_blank"
+        aria-label="Visit Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
