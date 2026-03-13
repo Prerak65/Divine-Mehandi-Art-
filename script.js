@@ -20,6 +20,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         const targetElement = document.querySelector(targetId);
 
         if (targetElement) {
+            // Close mobile menu if active
+            const navList = document.querySelector('.nav-list');
+            if (navList && navList.classList.contains('active')) {
+                navList.classList.remove('active');
+            }
+
             window.scrollTo({
                 top: targetElement.offsetTop - 80, // Adjust for sticky header
                 behavior: 'smooth'
@@ -27,6 +33,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+// Mobile Menu Toggle
+const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+const navList = document.querySelector('.nav-list');
+
+if (mobileMenuBtn && navList) {
+    mobileMenuBtn.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    });
+}
 
 // Add a simple fade-in intersection observer for scroll animations
 const observerOptions = {
